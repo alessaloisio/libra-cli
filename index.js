@@ -1,14 +1,10 @@
 const chalk = require("chalk");
 const clear = require("clear");
 const figlet = require("figlet");
-const readline = require("readline");
 
-const files = require("./lib/files");
-
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout
-});
+const core = require("./lib/core"),
+  Libra = core.Libra,
+  rl = core.rl;
 
 // INIT HEADER
 clear();
@@ -17,10 +13,8 @@ console.log(
   "\n\n"
 );
 
-// ASK QUESTIONS
-rl.question(chalk.white.bold("LIBRAry name : "), name => {
-  console.log(name);
+// ASK FIRST QUESTIONS
+rl.question("What kind of Library do you want to clone (js, ..) : ", answer => {
+  const library = new Libra(answer);
+  library.clone();
 });
-
-// console.log(chalk.white.bold("Library description : "));
-// console.log(chalk.white.bold("Library repo url : "));
