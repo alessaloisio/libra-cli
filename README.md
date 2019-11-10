@@ -2,7 +2,7 @@
 
 **Start developing your NPM module OR another softwares in seconds** ✨
 
-[Libra-CLI](/Screenshot.png)
+![Libra-CLI](/Screenshot.png)
 
 
 ## Installation
