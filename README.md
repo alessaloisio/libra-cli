@@ -2,7 +2,7 @@
 
 **Start developing your NPM module OR another softwares in seconds** ✨
 
-![Libra-CLI](/Screenshot.png)
+![Libra-CLI](https://github.com/alessaloisio/libra-cli/blob/master/Screenshot.png)
 
 
 ## Installation
