@@ -1,7 +1,7 @@
 {
-  "name": "library-starter-cli",
+  "name": "libra-cli",
   "version": "1.0.0",
-  "description": "cli to create library",
+  "description": "CLI to clone a starter library from libra-core",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
