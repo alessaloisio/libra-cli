@@ -16,5 +16,5 @@ console.log(
 // ASK FIRST QUESTIONS
 rl.question("What kind of Library do you want to clone (js, ..) : ", answer => {
   const library = new Libra(answer);
-  library.clone();
+  library.init();
 });
